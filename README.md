@@ -13,7 +13,16 @@ iOS 12.0
 Xcode 13.0+
 Swift 5.0+
 
-# How To Use?
+# Usage
+In your ViewController to start animation just use
+```Swift
+self.progressLoader(.start)
+```
+to stop animation use
+```Swift
+self.progressLoader(.stop)
+```
+
 # code
 ```Swift
 extension UIViewController {

@@ -7,7 +7,6 @@ Just drag and drop the PulseAnimation.swift file or jsut copy "UIViewController"
 # Sample Video
 
 https://github.com/maroleanapple/Pulse-Animator/assets/128990360/4b9ebd6b-5117-4526-9bf4-665599b5029d
-https://github.com/MaroleanJ/Pulse-Animator/assets/128990360/9455c9fa-38fe-472e-8db2-5291447584a6
 
 # Requirements
 iOS 12.0

@@ -14,6 +14,7 @@
 		96A2329C2A697A2800CEBF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A2329B2A697A2800CEBF1E /* Assets.xcassets */; };
 		96A2329F2A697A2800CEBF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A2329D2A697A2800CEBF1E /* LaunchScreen.storyboard */; };
 		96A232A72A697A3C00CEBF1E /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A232A62A697A3C00CEBF1E /* PulseAnimation.swift */; };
+		96F0D5442AB08A9200039E3A /* MJCircularActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0D5432AB08A9200039E3A /* MJCircularActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		96A2329E2A697A2800CEBF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A232A02A697A2800CEBF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A232A62A697A3C00CEBF1E /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		96F0D5432AB08A9200039E3A /* MJCircularActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJCircularActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,25 @@
 		96A232912A697A2700CEBF1E /* Pulser */ = {
 			isa = PBXGroup;
 			children = (
+				96F0D5422AB08A5A00039E3A /* MJAnimations */,
 				96A232922A697A2700CEBF1E /* AppDelegate.swift */,
 				96A232942A697A2700CEBF1E /* SceneDelegate.swift */,
 				96A232962A697A2700CEBF1E /* ViewController.swift */,
-				96A232A62A697A3C00CEBF1E /* PulseAnimation.swift */,
 				96A232982A697A2700CEBF1E /* Main.storyboard */,
 				96A2329B2A697A2800CEBF1E /* Assets.xcassets */,
 				96A2329D2A697A2800CEBF1E /* LaunchScreen.storyboard */,
 				96A232A02A697A2800CEBF1E /* Info.plist */,
 			);
 			path = Pulser;
+			sourceTree = "<group>";
+		};
+		96F0D5422AB08A5A00039E3A /* MJAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				96A232A62A697A3C00CEBF1E /* PulseAnimation.swift */,
+				96F0D5432AB08A9200039E3A /* MJCircularActivityIndicator.swift */,
+			);
+			path = MJAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			files = (
 				96A232A72A697A3C00CEBF1E /* PulseAnimation.swift in Sources */,
 				96A232972A697A2700CEBF1E /* ViewController.swift in Sources */,
+				96F0D5442AB08A9200039E3A /* MJCircularActivityIndicator.swift in Sources */,
 				96A232932A697A2700CEBF1E /* AppDelegate.swift in Sources */,
 				96A232952A697A2700CEBF1E /* SceneDelegate.swift in Sources */,
 			);
@@ -298,6 +310,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

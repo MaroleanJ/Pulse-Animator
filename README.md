@@ -16,7 +16,7 @@ iOS 12.0
 Xcode 13.0+
 Swift 5.0+
 
-# Usage
+# Pulse Animation Usage
 In your ViewController to start pulse animation just use
 ```Swift
 self.progressLoader(.start)
@@ -98,7 +98,7 @@ extension UIViewController {
 }
 ```
 
-# Circular Loader
+# Circular Loader Usage
 
 In your ViewController to start Circular loader, use
 ```Swift

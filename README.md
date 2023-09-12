@@ -1,7 +1,7 @@
 # Pulse-Animator
 An UIViewController extension to create dual colour pulse animation
 
-Just drag and drop the PulseAnimation.swift file or jsut copy "UIViewController" extension and use in your application
+Just drag and drop the PulseAnimation.swift file or just copy "UIViewController" extension and use in your application
 
 
 # Sample Video pulse Animator
@@ -98,6 +98,9 @@ extension UIViewController {
     }
 }
 ```
+# Circular-Loader
+Just drag and drop "MJCircularActivityIndicator.swift" file into your project
+
 
 # Circular Loader Usage
 

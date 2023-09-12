@@ -7,18 +7,21 @@ Just drag and drop the PulseAnimation.swift file or jsut copy "UIViewController"
 # Sample Video
 
 https://github.com/maroleanapple/Pulse-Animator/assets/128990360/4b9ebd6b-5117-4526-9bf4-665599b5029d
+https://github.com/MaroleanJ/Pulse-Animator/assets/128990360/9455c9fa-38fe-472e-8db2-5291447584a6
 
 # Requirements
 iOS 12.0
+
+
 Xcode 13.0+
 Swift 5.0+
 
 # Usage
-In your ViewController to start animation just use
+In your ViewController to start pulse animation just use
 ```Swift
 self.progressLoader(.start)
 ```
-to stop animation use
+to stop pulse animation use
 ```Swift
 self.progressLoader(.stop)
 ```
@@ -93,6 +96,35 @@ extension UIViewController {
         }
     }
 }
+```
+
+# Circular Loader
+
+In your ViewController to start Circular loader, use
+```Swift
+progressView.show()
+```
+In your ViewController to stop Circular loader, use
+```Swift
+progressView.hide()
+```
+
+# Circular loader Customizations
+```Swift
+    func progressView() {
+        let progressView = MJAnimateProgressView(frame: CGRect(x: view.frame.midX-75, y: view.frame.midY-75, width: 150, height: 150))
+        progressView.animateColor = [ #colorLiteral(red: 0, green: 0.9914394021, blue: 1, alpha: 1)]
+        progressView.duration = 1.5
+        progressView.lineWidth = 7.5
+        progressView.widthProgressView = 100
+        progressView.bgColor =  UIColor.clear
+        progressView.logoBgColor = UIColor.clear
+        progressView.trackColor = UIColor.gray
+
+        view.addSubview(progressView)
+        progressView.show()
+    }
+
 ```
 
 # Author
